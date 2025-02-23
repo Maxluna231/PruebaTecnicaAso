@@ -41,9 +41,9 @@ El objetivo principal es gestionar simulaciones de contrataciones de tarjetas de
 
 
 ###### Notas adicionales
-Mapeo con Mapstruct
-Clases Dtoin y DtOut para entrada y salida de datos
-@Valid para validaciones en los atributos 
-Carpeta Bussines para la creacion de la logica de negocio 
-Carpeta Facade para la implementacion 
+Mapeo con Mapstruct,
+Clases Dtoin y DtOut para entrada y salida de datos,
+@Valid para validaciones en los atributos,
+Carpeta Bussines para la creacion de la logica de negocio, 
+Carpeta Facade para la implementacion
 ****
