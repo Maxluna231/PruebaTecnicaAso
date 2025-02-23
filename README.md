@@ -1,5 +1,8 @@
 # Proyecto Aso
 
+### Acerca del proyecto
+El objetivo principal es gestionar simulaciones de contrataciones de tarjetas de crédito para un cliente a través de un servicio que acepta peticiones POST con datos en formato JSON.
+
 ### Tecnologías utilizadas
 - Intellig IDEA 
 - Postman
@@ -18,7 +21,7 @@
 10. aso-cli deploy helloWorld-sn.jar asoContainer --reload=true
 11. Por ultimo abrir postaman y agregar esta ruta (http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/12345)
 
-#### JSON entrada y salida serian los mismos campos 
+#### JSON entrada y salida serian los mismos campos (Request del servicio ASO QueryParam)
 
 - {
  - "details": {
@@ -37,9 +40,10 @@
 - }
 
 
-##### Contacto
-Si tienes preguntas, contáctame en mi correo.
-
 ###### Notas adicionales
-Este proyecto es solo una prueba.
+Mapeo con Mapstruct
+Clases Dtoin y DtOut para entrada y salida de datos
+@Valid para validaciones en los atributos 
+Carpeta Bussines para la creacion de la logica de negocio 
+Carpeta Facade para la implementacion 
 ****
