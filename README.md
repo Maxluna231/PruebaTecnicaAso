@@ -12,7 +12,7 @@ El objetivo principal es gestionar simulaciones de contrataciones de tarjetas de
 1. Clonar el repositorio o descargar el zip
 2. Tener el contenedor en docker encendido
 3. Importar el proyecto al IDE
-4. Buscar el pom y agregalo como maven
+4. Buscar el pom y agregar como maven
 5. Hacer Clean, Install
 6. Habilitar el disco :S
 7. Buscar dentro del proyecto la carpeta Tarjet y abrir una terminar (Ejecutar estos comandos).
