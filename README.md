@@ -21,7 +21,7 @@ El objetivo principal es gestionar simulaciones de contrataciones de tarjetas de
 10. aso-cli deploy helloWorld-sn.jar asoContainer --reload=true
 11. Por ultimo abrir postaman y agregar esta ruta (http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/12345)
 
-#### JSON entrada y salida serian los mismos campos (Request del servicio ASO QueryParam)
+#### JSON entrada (Request del servicio ASO QueryParam)
 
 - {
  - "details": {
@@ -39,6 +39,34 @@ El objetivo principal es gestionar simulaciones de contrataciones de tarjetas de
  - }
 - }
 
+#### JSON salida
+- {
+-    "data": {
+- "nuip": "1234",
+- "details": {
+-   "offerType": "CARD_HOLDER",
+-    "limitAmount": {
+-    "currency": "EUR",
+-    "amount": 200000
+-    },
+-    "product": {
+-  "subproduct": {
+-   "id": "AV"
+-    },
+-    "id": "TDC"
+-    },
+-  "minimumAmount": {
+-   "currency": "EUR",
+-    "amount": 180000
+-   },
+-   "maximumAmount": {
+-   "currency": "EUR",
+-   "amount": 210000
+-   }
+-    },
+-   "id": "b0548fb03e"
+-    }
+- }
 
 ###### Notas adicionales
 Mapeo con Mapstruct,
