@@ -14,7 +14,7 @@ El objetivo principal es gestionar simulaciones de contrataciones de tarjetas de
 3. Importar el proyecto al IDE
 4. Buscar el pom y agregalo como maven
 5. Hacer Clean, Install
-6. Habilitar el disco :D
+6. Habilitar el disco :S
 7. Buscar dentro del proyecto la carpeta Tarjet y abrir una terminar (Ejecutar estos comandos).
 8. aso-cli deploy helloWorld.jar asoContainer --reload=false
 9. aso-cli deploy helloWorld-facade.jar asoContainer --reload=false
