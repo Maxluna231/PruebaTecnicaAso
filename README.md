@@ -19,7 +19,7 @@ El objetivo principal es gestionar simulaciones de contrataciones de tarjetas de
 8. aso-cli deploy helloWorld.jar asoContainer --reload=false
 9. aso-cli deploy helloWorld-facade.jar asoContainer --reload=false
 10. aso-cli deploy helloWorld-sn.jar asoContainer --reload=true
-11. Por ultimo abrir postaman y agregar esta ruta (http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/12345)
+11. Por ultimo abrir postaman y agregar esta ruta (http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/1234
 
 #### JSON entrada (Request del servicio ASO QueryParam)
 
